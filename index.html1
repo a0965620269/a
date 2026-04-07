@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>你的名字 | Resume</title>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+      margin: 0;
+      background: #f7f7f7;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    }
+
+    h1 {
+      margin-bottom: 5px;
+      font-size: 32px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      font-size: 20px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+
+    .subtitle {
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .item {
+      margin-bottom: 12px;
+    }
+
+    .item-title {
+      font-weight: bold;
+    }
+
+    .item-sub {
+      color: #666;
+      font-size: 14px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #eee;
+      padding: 5px 10px;
+      margin: 5px 5px 0 0;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>你的名字</h1>
+  <div class="subtitle">
+    軟體工程師｜前端開發｜Web Developer  
+    <br>
+    📧 your@email.com ｜ 🌐 kuncn.uk
+  </div>
+
+  <h2>個人簡介</h2>
+  <div class="section">
+    一段簡短介紹你自己，例如：擅長前端開發，熟悉 JavaScript、React，喜歡打造高效能與良好使用體驗的網站。
+  </div>
+
+  <h2>技能</h2>
+  <div class="skills">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>React</span>
+    <span>Git</span>
+  </div>
+
+  <h2>專案</h2>
+  <div class="section">
+
+    <div class="item">
+      <div class="item-title">個人網站</div>
+      <div class="item-sub">使用 GitHub Pages + Cloudflare 部署</div>
+      <div>👉 <a href="https://kuncn.uk" target="_blank">kuncn.uk</a></div>
+    </div>
+
+    <div class="item">
+      <div class="item-title">Todo App</div>
+      <div class="item-sub">React / LocalStorage</div>
+      <div>簡單的待辦事項應用，支援新增與刪除</div>
+    </div>
+
+  </div>
+
+  <h2>學歷</h2>
+  <div class="section">
+    <div class="item">
+      <div class="item-title">某某大學</div>
+      <div class="item-sub">資訊工程系 ｜ 2020 - 2024</div>
+    </div>
+  </div>
+
+  <h2>聯絡方式</h2>
+  <div class="section">
+    Email: your@email.com<br>
+    GitHub: <a href="https://github.com/你的帳號" target="_blank">github.com/你的帳號</a>
+  </div>
+
+</div>
+
+</body>
+</html>
